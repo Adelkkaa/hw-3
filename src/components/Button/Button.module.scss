@@ -1,0 +1,38 @@
+
+.button {
+    height: 55px;
+    background: #518581;
+    border: none;
+    cursor: pointer;
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.button:not(:disabled):hover {
+    opacity: 0.7;
+}
+.button_disabled {
+    background: #dadada;
+    cursor: unset;
+    height: 55px;
+    border: none;
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+

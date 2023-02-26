@@ -1,0 +1,45 @@
+.loader {
+    &_size {
+        &_s {
+            box-sizing: border-box;
+            border-radius: 50%;
+            border: 4.5px solid #5D9CEC;
+            transform: rotate(35deg);
+            animation: rotation 1s linear infinite;
+            border-right-color: transparent;
+            width: 20px;
+            height: 20px;
+        }
+        &_m {
+            box-sizing: border-box;
+            border-radius: 50%;
+            border: 4.5px solid #5D9CEC;
+            transform: rotate(35deg);
+            animation: rotation 1s linear infinite;
+            border-right-color: transparent;
+            width: 40px;
+            height: 40px;
+        }
+        &_l {
+            box-sizing: border-box;
+            border-radius: 50%;
+            border: 4.5px solid #5D9CEC;
+            transform: rotate(35deg);
+            animation: rotation 1s linear infinite;
+            border-right-color: transparent;
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
+
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

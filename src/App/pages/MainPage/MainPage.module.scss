@@ -1,0 +1,32 @@
+.main {
+    margin: 0 auto;
+    height: 1500px;
+    &__title {
+        margin-top: 100px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 130%;
+        text-align: center;
+        color: #151411;
+    }
+    &__descr {
+        width: 600px;
+        height: 64px;
+        margin: 0 auto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 180%;
+        text-align: center;
+        color: #AFADB5;
+        margin-top: 20px;
+    }
+    &__search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 79px;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,20 @@
+@import url('~@styles/EudoxusSans/fonts.scss');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Eudoxus Sans';
+    box-sizing: border-box;
+    background: #FFFFFF;
+}
+
+.app {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 6.94442vw;
+}
+
+@media screen and (min-width: 1441px) {
+    .app {
+        padding: 0 100px;
+    }
+}
