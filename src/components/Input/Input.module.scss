@@ -1,0 +1,38 @@
+.input {
+    box-sizing: border-box;
+    width: 366px;
+    height: 84px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(175, 173, 181, 0.2);
+    border: none;
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #AFADB5;
+    padding: 26px;
+    
+}
+
+.input:focus {
+    background: #FFFFFF;
+    border: 1px solid #518581;
+    box-shadow: 0px 4px 120px rgba(175, 173, 181, 0.15);
+    color: #151411;
+}
+
+.input:disabled {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 120px rgba(175, 173, 181, 0.15);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #151411;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    opacity: 0.5;
+}
